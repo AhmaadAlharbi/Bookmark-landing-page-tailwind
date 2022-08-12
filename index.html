@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bookmark landing page | Tailwindcss</title>
+  </head>
+  <body class="">
+    <header
+      class="flex mx-auto container justify-between items-center px-5 mt-10"
+    >
+      <img src="images/logo-bookmark.svg" alt="" />
+      <img
+        class="md:hidden cursor-pointer"
+        src="images/icon-hamburger.svg"
+        alt=""
+      />
+      <div class="hidden md:flex space-x-14 text-grayishBlue">
+        <div class="group">
+          <a href="#" class="uppercase">features</a>
+        </div>
+        <div class="group">
+          <a href="#" class="uppercase">Pricing</a>
+        </div>
+        <div class="group">
+          <a href="#" class="uppercase">contact</a>
+        </div>
+        <div class="group">
+          <a
+            href="#"
+            class="uppercase bg-softRed text-white px-8 py-2 font-bold shadow-2xl"
+            >log in</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- hero -->
+    <section id="hero">
+      <div
+        class="flex flex-col justify-evenly space-y-20 md:space-y-0 md:space-x-6 py-10 px-4 items-center mt-24 md:flex-row-reverse"
+      >
+        <!-- hero image -->
+        <div class="bg-img">
+          <img src="images/illustration-hero.svg" class="" alt="" />
+          <div
+            class="absolute bottom-[30%] -z-10 right-0 bg-softBlue w-[94%] md:w-[40%] rounded-bl-full h-[44%] md:h-[31%]"
+          ></div>
+        </div>
+        <!-- hero text -->
+        <div class="py-10 text-center md:text-left max-w-xl md:ml-20 mt-[6rem]">
+          <h1 class="text-veryDarkBlue text-3xl my-4 md:text-6xl font-bold">
+            A Simple Bookmark Manager
+          </h1>
+          <p class="text-grayishBlue my-6 text-xl md:text-lg max-w-sm">
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+          <!-- buttons -->
+          <div class="space-y-4 md:space-x-4 py-2">
+            <button class="bg-softBlue text-white py-3 px-6 font-bold">
+              Get it on Chorme
+            </button>
+            <button class="bg-gray-200 text-veryDarkBlue py-3 px-6 font-bold">
+              Get it on Firefox
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features -->
+    <section id="features">
+      <div class="flex flex-col justify-between items-center my-10 py-10 px-4">
+        <h2 class="text-4xl font-bold">Features</h2>
+        <p class="my-5 text-grayishBlue text-xl max-w-xl text-center">
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+        <!-- tabs -->
+        <div
+          class="flex flex-col md:flex-row space-y-8 md:space-y-0 justify-between items-center md:space-x-10 my-7"
+        >
+          <div class="group border-b-4 pb-4 border-softRed">
+            <button class="font-bold text-veryDarkBlue text-xl">
+              Simple Bookmarking
+            </button>
+          </div>
+          <div class="group pb-4">
+            <button class="font-bold text-grayishBlue text-xl">
+              Speedy Searching
+            </button>
+          </div>
+          <div class="group pb-4">
+            <button class="font-bold text-grayishBlue text-xl">
+              Easy Sharing
+            </button>
+          </div>
+        </div>
+        <!-- tab 1 content -->
+        <div
+          class="flex flex-col space-y-44 justify-between items-center mt-10 md:flex-row md:gap-44 md:space-y-0"
+        >
+          <!-- img container -->
+          <div>
+            <img src="images/illustration-features-tab-1.svg" alt="" />
+            <div
+              class="absolute rotate-180 bottom-[-140%] md:bottom-[-55%] -z-10 left-0 bg-softBlue w-[94%] md:w-[40%] rounded-tl-full h-[44%] md:h-[31%]"
+            ></div>
+          </div>
+          <!-- text container -->
+          <div>
+            <h3 class="text-3xl font-bold text-veryDarkBlue my-5">
+              Bookmark in one click
+            </h3>
+            <p class="text-xl text-grayishBlue max-w-xl my-6">
+              Organize your bookmarks however you like. Our simple drag-and-drop
+              interface gives you complete control over how you manage your
+              favourite sites.
+            </p>
+            <button class="bg-softBlue text-white px-8 py-2">More info</button>
+          </div>
+        </div>
+        <!-- tab 2 content -->
+        <div
+          class="hidden flex-col space-y-44 justify-between items-center mt-10 md:flex-row md:gap-44 md:space-y-0"
+        >
+          <!-- img container -->
+          <div>
+            <img src="images/illustration-features-tab-2.svg" alt="" />
+            <div
+              class="absolute rotate-180 bottom-[-140%] md:bottom-[-55%] -z-10 left-0 bg-softBlue w-[94%] md:w-[40%] rounded-tl-full h-[44%] md:h-[31%]"
+            ></div>
+          </div>
+          <!-- text container -->
+          <div>
+            <h3 class="text-3xl font-bold text-veryDarkBlue my-5">
+              Intelligent search
+            </h3>
+            <p class="text-xl text-grayishBlue max-w-xl my-6">
+              Our powerful search feature will help you find saved sites in no
+              time at all. No need to trawl through all of your bookmarks.
+            </p>
+            <button class="bg-softBlue text-white px-8 py-2">More info</button>
+          </div>
+        </div>
+        <!-- tab 3 content -->
+        <div
+          class="hidden flex-col space-y-44 justify-between items-center mt-10 md:flex-row md:gap-44 md:space-y-0"
+        >
+          <!-- img container -->
+          <div>
+            <img src="images/illustration-features-tab-3.svg" alt="" />
+            <div
+              class="absolute rotate-180 bottom-[-140%] md:bottom-[-55%] -z-10 left-0 bg-softBlue w-[94%] md:w-[40%] rounded-tl-full h-[44%] md:h-[31%]"
+            ></div>
+          </div>
+          <!-- text container -->
+          <div>
+            <h3 class="text-3xl font-bold text-veryDarkBlue my-5">
+              Share your bookmarks
+            </h3>
+            <p class="text-xl text-grayishBlue max-w-xl my-6">
+              Share your bookmarks Easily share your bookmarks and collections
+              with others. Create a shareable a link that you can send at the
+              click of a button.
+            </p>
+            <button class="bg-softBlue text-white px-8 py-2">More info</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Extenstions -->
+    <section id="extensions">
+      <div
+        class="flex flex-col justify-center items-center px-4 py-10 mt-20 text-center"
+      >
+        <h2 class="text-3xl font-bold text-veryDarkBlue mb-3">
+          Download the extension
+        </h2>
+        <p class="text-xl text-grayishBlue max-w-xl text-center mb-4">
+          We've got more browsers in the pipeline. Please do let us know if
+          you've got a favourite you'd like us to prioritize.
+        </p>
+        <!-- cards -->
+        <div
+          class="flex flex-col justify-center space-y-12 items-center md:flex-row md:space-x-16 md:space-y-0 mt-16"
+        >
+          <!-- card 1 -->
+          <div
+            class="flex py-12 flex-col justify-center items-center p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md"
+          >
+            <img src="images/logo-chrome.svg" alt="" />
+            <h4 class="my-6 text-2xl font-bold text-veryDarkBlue">
+              Add to Chrome
+            </h4>
+            <img src="images/bg-dots.svg" alt="" />
+            <button class="bg-softBlue text-white py-2 px-10 my-9">
+              Add & Intall Extension
+            </button>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="flex flex-col justify-center py-12 items-center translate-y-10 p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md"
+          >
+            <img src="images/logo-firefox.svg" alt="" />
+            <h4 class="my-6 text-2xl font-bold text-veryDarkBlue">
+              Add to FireFiox
+            </h4>
+            <img src="images/bg-dots.svg" alt="" />
+            <button class="bg-softBlue text-white py-2 px-10 my-9">
+              Add & Intall Extension
+            </button>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="flex flex-col justify-center items-center py-12 translate-y-24 p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md"
+          >
+            <img src="images/logo-opera.svg" alt="" />
+            <h4 class="my-6 text-2xl font-bold text-veryDarkBlue">
+              Add to Opera
+            </h4>
+            <img src="images/bg-dots.svg" alt="" />
+            <button class="bg-softBlue text-white py-2 px-10 my-9">
+              Add & Intall Extension
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section id="faq">
+      <div class="flex flex-col justify-center items-center mt-32 py-10 px-5">
+        <h3 class="text-3xl text-veryDarkBlue font-bold mb-3 text-center">
+          Frequently Asked Questions
+        </h3>
+        <p class="text-xl text-grayishBlue max-w-xl text-center mb-5">
+          Here are some of our FAQs. If you have any other questions you'd like
+          answered please feel free to email us.
+        </p>
+
+        <div class="questions">
+          <div
+            class="question flex justify-between items-center w-full max-w-xl"
+          >
+            <h1>What is bookMark?</h1>
+            <img src="images/icon-arrow.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

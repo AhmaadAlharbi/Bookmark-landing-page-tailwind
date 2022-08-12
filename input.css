@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .bg-img::after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  z-index: -1;
+  width: 400px;
+  height: 320px;
+  border-top-left-radius: 300px;
+  border-bottom-left-radius: 300px;
+  background-color: hsl(231, 69%, 60%);
+  right: 0px;
+} */
+/* mobile */
+/* @media (max-width: 483px) {
+  .bg-img::after {
+    width: 300px;
+    height: 180px;
+    top: 150px;
+  }
+} */
