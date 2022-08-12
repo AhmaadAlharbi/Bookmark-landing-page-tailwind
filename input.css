@@ -22,3 +22,6 @@
     top: 150px;
   }
 } */
+.show {
+  display: flex;
+}
